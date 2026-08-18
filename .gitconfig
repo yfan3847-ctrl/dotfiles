@@ -1,0 +1,13 @@
+[user]
+    name = yfan3847-ctrl
+    email = 291246085+yfan3847-ctrl@users.noreply.github.com
+
+[core]
+    editor = vim
+    autocrlf = false
+
+[init]
+    defaultBranch = main
+
+[pull]
+    rebase = false

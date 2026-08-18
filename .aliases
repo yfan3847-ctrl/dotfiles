@@ -1,0 +1,24 @@
+# ~/.aliases — command aliases
+
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# Git shortcuts
+alias gs="git status"
+alias gd="git diff"
+alias gl="git log --oneline --graph --decorate"
+alias gp="git push"
+alias ga="git add"
+alias gc="git commit"
+
+# List files
+alias ll="ls -alF"
+alias la="ls -A"
+alias l="ls -CF"
+
+# Safety
+alias rm="rm -i"
+alias cp="cp -i"
+alias mv="mv -i"
