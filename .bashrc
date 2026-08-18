@@ -24,3 +24,4 @@ fi
 if [ -f ~/.functions ]; then
     . ~/.functions
 fi
+\n# Custom PATH\nexport PATH="$HOME/.local/bin:$PATH"
