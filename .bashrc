@@ -9,7 +9,7 @@ esac
 # History settings
 HISTCONTROL=ignoreboth
 HISTSIZE=2000
-HISTFILESIZE=4000
+HISTFILESIZE=10000
 shopt -s histappend
 
 # Check window size after each command
