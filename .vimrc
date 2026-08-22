@@ -17,3 +17,4 @@ set wildmenu
 set laststatus=2
 set ruler
 set backspace=indent,eol,start
+\n" Better search\nset gdefault
