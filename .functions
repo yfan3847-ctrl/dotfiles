@@ -23,3 +23,4 @@ extract() {
         echo "File not found: $1"
     fi
 }
+\n# Compress directory\ntarz() {\n    tar -czf "${1%/}.tar.gz" "$1"\n}
