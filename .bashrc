@@ -25,3 +25,4 @@ if [ -f ~/.functions ]; then
     . ~/.functions
 fi
 \n# Custom PATH\nexport PATH="$HOME/.local/bin:$PATH"
+\n# Less options\nexport LESS="-R -F -X -i"
