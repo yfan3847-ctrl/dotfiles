@@ -25,3 +25,4 @@ extract() {
 }
 \n# Compress directory\ntarz() {\n    tar -czf "${1%/}.tar.gz" "$1"\n}
 \n# Generate random password\ngenpass() {\n    openssl rand -base64 ${1:-16}\n}
+\n# Count files by extension\nfilecount() {\n    find . -type f | sed "s/.*\\.//" | sort | uniq -c | sort -rn\n}
