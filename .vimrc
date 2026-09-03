@@ -20,3 +20,4 @@ set backspace=indent,eol,start
 \n" Better search\nset gdefault
 \n" Show matching brackets\nset showmatch\nset matchtime=2
 \n" Auto-change directory to file location\nset autochdir
+\n" Tab settings\nset tabstop=2\nset shiftwidth=2
