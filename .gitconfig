@@ -12,3 +12,4 @@
 [pull]
     rebase = false
 \n[help]\n    autocorrect = 1
+\n[push]\n    default = current
