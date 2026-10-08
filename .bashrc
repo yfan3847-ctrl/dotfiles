@@ -27,3 +27,4 @@ fi
 \n# Custom PATH\nexport PATH="$HOME/.local/bin:$PATH"
 \n# Less options\nexport LESS="-R -F -X -i"
 \n# Bash completion\nif [ -f /etc/bash_completion ]; then\n    . /etc/bash_completion\nfi
+\n# Append to history instead of overwrite\nshopt -s histappend\nPROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
