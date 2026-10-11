@@ -28,3 +28,4 @@ extract() {
 \n# Count files by extension\nfilecount() {\n    find . -type f | sed "s/.*\\.//" | sort | uniq -c | sort -rn\n}
 \n# Show top 10 largest files in current directory\nbigfiles() {\n    find . -type f -exec du -h {} + | sort -rh | head -10\n}
 \n# Simple calculator\ncalc() {\n    python3 -c "from math import *; print($*)"\n}
+\n# Quick git log with stats\nglog() {\n    git log --oneline --stat $1 | less\n}
