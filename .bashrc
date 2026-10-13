@@ -24,3 +24,4 @@ fi
 if [ -f ~/.functions ]; then
     . ~/.functions
 fi
+\n# Less options\nexport LESS="-R -F -X -i"
