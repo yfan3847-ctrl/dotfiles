@@ -25,3 +25,4 @@ if [ -f ~/.functions ]; then
     . ~/.functions
 fi
 \n# Less options\nexport LESS="-R -F -X -i"
+\n# Ignore duplicate lines in history\nexport HISTCONTROL=ignoredups:erasedups
