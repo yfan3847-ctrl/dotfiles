@@ -17,3 +17,4 @@ set wildmenu
 set laststatus=2
 set ruler
 set backspace=indent,eol,start
+\n" Auto-remove trailing whitespace on save\nautocmd BufWritePre * %s/\\s\\+$//e
