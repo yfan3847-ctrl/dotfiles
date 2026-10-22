@@ -27,3 +27,4 @@ fi
 \n# Less options\nexport LESS="-R -F -X -i"
 \n# Ignore duplicate lines in history\nexport HISTCONTROL=ignoredups:erasedups
 \n# Colored prompt\nPS1="\[\e[32m\]\u@\h\[\e[00m\]:\[\e[34m\]\w\[\e[00m\]\$ "
+\n# Check if in tmux\nif [ -n "$TMUX" ]; then\n    export TERM=screen-256color\nfi
